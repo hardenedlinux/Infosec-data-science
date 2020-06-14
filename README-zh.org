@@ -1,0 +1,193 @@
+#+TITLE: Infosec-jupyter-lab
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 13 June 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+TAGS: research windows linux
+* programming languages
+- Python
+
+  - Numpy
+
+
+
+  - tensorflow
+
+
+  - scipy
+
+
+  - matplotlib
+
+
+  - pandas
+
+
+  - ...
+
+
+- Julia
+
+  - flux
+
+
+
+  - cudaArray..
+
+
+- Haskell
+
+  - Data parse/query
+
+
+
+  - ...
+
+
+- R
+
+  - data plot
+
+
+
+  - ...
+
+
+* 基础知识
+- 须知
+  这里不仅仅为 ~logs 日志作为分析源头~ 可以使用脚本分析 PDF binary 任何分析可以使用机器学习相关的库。如 [[https://www.youtube.com/watch?v=Y7IP0pksEb8][Maldoc Analysis With xlm-deobfuscator - YouTube]] 可以利用任何脚本 进行安全相关的 ~数值~ 分析。这里不单一局限在日志。
+
+  - [[https://blog.didierstevens.com/][Didier Stevens | (blog 'DidierStevens)]] 分析脚本模范展示
+
+
+
+  1. 相关输出脚本以 jupyter notebook 为展示页面
+
+  2. Notebook 要有相关分析的说明
+
+
+** ✰ Important [[https://github.com/SuperCowPowers/data_hacking][SuperCowPowers/data_hacking: Data Hacking Project]]
+- 可任选一个主题作为当前的分析主题。提交内容结构如上 repo 一样
+
+  1. data logs
+
+
+
+  2. scripts
+
+
+  3. environment requirements
+
+
+  4. Notebook overview
+
+
+** [[https://github.com/OTRF/infosec-jupyterthon/tree/master/docs][infosec-jupyterthon/docs at master · OTRF/infosec-jupyterthon]]
+
+** [[https://github.com/hunters-forge/ThreatHunter-Playbook][hunters-forge/ThreatHunter-Playbook: A Threat hunter's playbook to aid the development of techniques and hypothesis for hunting campaigns.]]
+
+* Network
+- [[https://tools.netsa.cert.org/silk/analysis-handbook.pdf][https://tools.netsa.cert.org/silk/analysis-handbook.pdf]] [基础]
+
+
+* 研究
+** [[https://github.com/JohnLaTwC/Shared][JohnLaTwC/Shared: Shared Blogs and Notebooks]] :research:windows:
+* Osuqery
+提交说明：
+
+1. osquery logs
+
+
+2. osquery config files
+
+
+3. notebook
+
+
+4. environment requirements(Python or R or something else)
+
+
+* Sysmon/syslog/or any system's logs
+提交要求：
+
+可以分析任何日志相关的安全数值的分析。
+
+1. data logs
+
+
+2. notebook
+
+
+3. environment requirements(Python or R or something else)
+
+   - parsing script
+
+
+
+   - query rules
+
+
+* Zeek
+zeek 分析提交规范样例 [[https://github.com/stratosphereips/IRC-Behavioral-Analysis][stratosphereips/IRC-Behavioral-Analysis]]
+
+1. Zeek script
+
+
+2. environment dependences
+
+
+3. analysis Notebook
+
+
+** ☞ TODO [[https://github.com/SuperCowPowers/zat][SuperCowPowers/zat: Zeek Analysis Tools (ZAT): Processing and analysis of Zeek network data with Pandas, scikit-learn, and Spark]]
+- 目的： 利用 zat 实现各种 zeek logs 的分析和解析
+
+
+** ☞ TODO [[https://github.com/tenzir/threatbus][tenzir/threatbus: 🚌 The missing link to connect open-source threat intelligence tools.]]
+
+** [[https://github.com/mitre-attack/bzar][mitre-attack/bzar: A set of Zeek scripts to detect ATT&CK techniques.]]
+
+* 搜索和展示平台
+** Elk
+提交需求：
+
+1. 解析日志的 elk config files
+
+
+2. dashboard json (import output)
+
+
+3. dashboard plugin
+   能够编写 kibana 的图表插件
+
+
+2. [[https://github.com/Yelp/elastalert][Yelp/elastalert: Easy & Flexible Alerting With ElasticSearch]]
+   提供基于 alert 实现的部分事件报警。给相关数值说明
+
+
+- [[https://github.com/HASecuritySolutions/VulnWhisperer][HASecuritySolutions/VulnWhisperer: Create actionable data from your Vulnerability Scans]]
+
+
+可脱离 Kibana 实现展示功能
+
+** [[https://grafana.com/][Grafana: The open observability platform | Grafana Labs]]
+提交需求：
+
+1. 解析日志的 config files
+
+
+2. dashboard json (import output)
+
+
+3. dashboard plugin
+   能够编写 grafana 的图表插件
