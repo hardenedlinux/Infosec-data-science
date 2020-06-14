@@ -84,10 +84,9 @@
 
 
 ** ✰ Important [[https://github.com/SuperCowPowers/data_hacking][SuperCowPowers/data_hacking: Data Hacking Project]]
-- 可任选一个主题作为当前的分析主题。提交内容结构如上 repo 一样 :
+可任选一个主题作为当前的分析主题。提交内容结构如上 repo 一样
 
   1. data logs
-
 
 
   2. scripts
@@ -131,6 +130,9 @@
 
 
 -  [[https://github.com/ogrisel/parallel_ml_tutorial][ogrisel/parallel_ml_tutorial: Tutorial on scikit-learn and IPython for parallel machine learning]]
+
+
+- [[https://github.com/fastai/fastai/tree/master/courses/dl1][fastai/courses/dl1 at master · fastai/fastai]]
 
 
 - [[https://tools.netsa.cert.org/silk/analysis-handbook.pdf][https://tools.netsa.cert.org/silk/analysis-handbook.pdf]] [网络分析基础]

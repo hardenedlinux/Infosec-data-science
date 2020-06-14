@@ -1,27 +1,27 @@
 
 # Table of Contents
 
-1.  [programming languages](#org1e99fca)
-2.  [基础知识](#org9fe324c)
-    1.  [SuperCowPowers/data\_hacking: Data Hacking Project](#org4712a7d)
-    2.  [机器学习库](#org6a677a9)
-3.  [相关学习和教程](#org46db761)
-4.  [研究](#orgb24b0c5)
-    1.  [JohnLaTwC/Shared: Shared Blogs and Notebooks](#org85a99c5):research:windows:
-    2.  [lbnl-cybersecurity/ddos-detection](#org438bb87):DDOS:
-5.  [Osuqery](#org3cead9c)
-6.  [Sysmon/syslog/or any system's logs](#orgf8754f4)
-7.  [Zeek](#orgd48beb9)
-    1.  [SuperCowPowers/zat: Zeek Analysis Tools (ZAT): Processing and analysis of Zeek network data with Pandas, scikit-learn, and Spark](#org21cac88)
-    2.  [tenzir/threatbus: 🚌 The missing link to connect open-source threat intelligence tools.](#org91d579e)
-    3.  [mitre-attack/bzar: A set of Zeek scripts to detect ATT&CK techniques.](#org2bbd12c)
-8.  [搜索和展示平台](#org3a90639)
-    1.  [Elk](#org6df7907)
-    2.  [Grafana: The open observability platform | Grafana Labs](#org1fd3e81)
+1.  [programming languages](#orgf910a2f)
+2.  [基础知识](#org1c9aff2)
+    1.  [SuperCowPowers/data\_hacking: Data Hacking Project](#org2d9a175)
+    2.  [机器学习库](#org5a5855b)
+3.  [相关学习和教程](#org113cfe5)
+4.  [研究](#org4adc269)
+    1.  [JohnLaTwC/Shared: Shared Blogs and Notebooks](#orgda7d409):research:windows:
+    2.  [lbnl-cybersecurity/ddos-detection](#orgb9d820d):DDOS:
+5.  [Osuqery](#orga0364d7)
+6.  [Sysmon/syslog/or any system's logs](#org6869d5b)
+7.  [Zeek](#org2c6ce08)
+    1.  [SuperCowPowers/zat: Zeek Analysis Tools (ZAT): Processing and analysis of Zeek network data with Pandas, scikit-learn, and Spark](#orge8f66e8)
+    2.  [tenzir/threatbus: 🚌 The missing link to connect open-source threat intelligence tools.](#orgd200511)
+    3.  [mitre-attack/bzar: A set of Zeek scripts to detect ATT&CK techniques.](#org4f0b549)
+8.  [搜索和展示平台](#orga7ab02e)
+    1.  [Elk](#orga48bb40)
+    2.  [Grafana: The open observability platform | Grafana Labs](#org9fe04d8)
 
 
 
-<a id="org1e99fca"></a>
+<a id="orgf910a2f"></a>
 
 # programming languages
 
@@ -54,7 +54,7 @@
 -   &#x2026;
 
 
-<a id="org9fe324c"></a>
+<a id="org1c9aff2"></a>
 
 # 基础知识
 
@@ -70,12 +70,13 @@
     -   [TonyPhipps/SIEM: SIEM Tactics, Techiques, and Procedures](https://github.com/TonyPhipps/SIEM)
 
 
-<a id="org4712a7d"></a>
+<a id="org2d9a175"></a>
 
 ## ✰ Important [SuperCowPowers/data\_hacking: Data Hacking Project](https://github.com/SuperCowPowers/data_hacking)
 
--   可任选一个主题作为当前的分析主题。提交内容结构如上 repo 一样 :
-    1.  data logs
+可任选一个主题作为当前的分析主题。提交内容结构如上 repo 一样
+
+1.  data logs
 
 1.  scripts
 
@@ -90,7 +91,7 @@
 -   [hunters-forge/ThreatHunter-Playbook: A Threat hunter's playbook to aid the development of techniques and hypothesis for hunting campaigns.](https://github.com/hunters-forge/ThreatHunter-Playbook)
 
 
-<a id="org6a677a9"></a>
+<a id="org5a5855b"></a>
 
 ## 机器学习库
 
@@ -105,7 +106,7 @@
 提交标准参考 notebooks
 
 
-<a id="org46db761"></a>
+<a id="org113cfe5"></a>
 
 # ✰ Important 相关学习和教程
 
@@ -117,25 +118,27 @@
 
 -   [ogrisel/parallel\_ml\_tutorial: Tutorial on scikit-learn and IPython for parallel machine learning](https://github.com/ogrisel/parallel_ml_tutorial)
 
+-   [fastai/courses/dl1 at master · fastai/fastai](https://github.com/fastai/fastai/tree/master/courses/dl1)
+
 -   [https://tools.netsa.cert.org/silk/analysis-handbook.pdf](https://tools.netsa.cert.org/silk/analysis-handbook.pdf) [网络分析基础]
 
 
-<a id="orgb24b0c5"></a>
+<a id="org4adc269"></a>
 
 # 研究
 
 
-<a id="org85a99c5"></a>
+<a id="orgda7d409"></a>
 
 ## [JohnLaTwC/Shared: Shared Blogs and Notebooks](https://github.com/JohnLaTwC/Shared)     :research:windows:
 
 
-<a id="org438bb87"></a>
+<a id="orgb9d820d"></a>
 
 ## [lbnl-cybersecurity/ddos-detection](https://github.com/lbnl-cybersecurity/ddos-detection)     :DDOS:
 
 
-<a id="org3cead9c"></a>
+<a id="orga0364d7"></a>
 
 # Osuqery
 
@@ -150,7 +153,7 @@
 1.  environment requirements(Python or R or something else)
 
 
-<a id="orgf8754f4"></a>
+<a id="org6869d5b"></a>
 
 # Sysmon/syslog/or any system's logs
 
@@ -168,7 +171,7 @@
 -   query rules
 
 
-<a id="orgd48beb9"></a>
+<a id="org2c6ce08"></a>
 
 # Zeek
 
@@ -181,29 +184,29 @@ zeek 分析提交规范样例 [stratosphereips/IRC-Behavioral-Analysis](https://
 1.  analysis Notebook
 
 
-<a id="org21cac88"></a>
+<a id="orge8f66e8"></a>
 
 ## ☞ TODO [SuperCowPowers/zat: Zeek Analysis Tools (ZAT): Processing and analysis of Zeek network data with Pandas, scikit-learn, and Spark](https://github.com/SuperCowPowers/zat)
 
 -   目的： 利用 zat 实现各种 zeek logs 的分析和解析
 
 
-<a id="org91d579e"></a>
+<a id="orgd200511"></a>
 
 ## ☞ TODO [tenzir/threatbus: 🚌 The missing link to connect open-source threat intelligence tools.](https://github.com/tenzir/threatbus)
 
 
-<a id="org2bbd12c"></a>
+<a id="org4f0b549"></a>
 
 ## [mitre-attack/bzar: A set of Zeek scripts to detect ATT&CK techniques.](https://github.com/mitre-attack/bzar)
 
 
-<a id="org3a90639"></a>
+<a id="orga7ab02e"></a>
 
 # 搜索和展示平台
 
 
-<a id="org6df7907"></a>
+<a id="orga48bb40"></a>
 
 ## Elk
 
@@ -224,7 +227,7 @@ zeek 分析提交规范样例 [stratosphereips/IRC-Behavioral-Analysis](https://
 可脱离 Kibana 实现展示功能
 
 
-<a id="org1fd3e81"></a>
+<a id="org9fe04d8"></a>
 
 ## [Grafana: The open observability platform | Grafana Labs](https://grafana.com/)
 
