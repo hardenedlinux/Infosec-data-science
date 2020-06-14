@@ -17,33 +17,24 @@
 * programming languages
 - Python
 
-  - Numpy
 
-
-
-  - tensorflow
-
-
-  - scipy
-
-
-  - matplotlib
-
-
-  - pandas
-
-
-  - ...
-
+| machine learn |           |
+|---------------+-----------|
+| scipy         |           |
+| Numpy         |           |
+| tensorflow    |           |
+| pandas        |           |
+| matplotlib    | plot      |
+| clx           | Important |
+| fastai        |           |
 
 - Julia
 
-  - flux
 
-
-
-  - cudaArray..
-
+| machine learn |   |
+|---------------+---|
+| flux          |   |
+| cudaArray     | GPU |
 
 - Haskell
 
@@ -51,17 +42,15 @@
 
 
 
-  - ...
-
-
 - R
 
-  - data plot
 
-
-
-  - ...
-
+| package name | role     |
+|--------------+----------|
+| ggplot2      | plot     |
+| tidyverse    |          |
+| xts          | timeline |
+| timetk       | timeline |
 
 * 基础知识
 - 须知
