@@ -13,7 +13,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
-#+TAGS: research windows linux
+#+TAGS: research windows linux DDOS
 * programming languages
 - Python
 
@@ -73,11 +73,18 @@
 
   1. 相关输出脚本以 jupyter notebook 为展示页面
 
+
   2. Notebook 要有相关分析的说明
 
 
+- 数据范畴不限 SIEM 支持的。可以参考 SIEM 要求数据分析范围类型
+
+  - [[https://github.com/TonyPhipps/SIEM][TonyPhipps/SIEM: SIEM Tactics, Techiques, and Procedures]]
+
+
+
 ** ✰ Important [[https://github.com/SuperCowPowers/data_hacking][SuperCowPowers/data_hacking: Data Hacking Project]]
-- 可任选一个主题作为当前的分析主题。提交内容结构如上 repo 一样
+- 可任选一个主题作为当前的分析主题。提交内容结构如上 repo 一样 :
 
   1. data logs
 
@@ -96,12 +103,31 @@
 
 ** [[https://github.com/hunters-forge/ThreatHunter-Playbook][hunters-forge/ThreatHunter-Playbook: A Threat hunter's playbook to aid the development of techniques and hypothesis for hunting campaigns.]]
 
+** [[https://github.com/RAPIDSAcademy/rapidsacademy/tree/master/tutorials/security/tour][rapidsacademy/tutorials/security/tour at master · RAPIDSAcademy/rapidsacademy]] :ML:GPU:
+
+** [[https://github.com/rapidsai/clx][rapidsai/clx: A collection of RAPIDS examples for security analysts, data scientists, and engineers to quickly get started applying RAPIDS and GPU acceleration to real-world cybersecurity use cases.]]
+基于 GPU 的攻击安全分析，建议使用的库
+
+*** [[https://github.com/rapidsai/clx/tree/branch-0.15/notebooks][clx/notebooks at branch-0.15 · rapidsai/clx]]
+提交标准参考 notebooks
+
+**
+
+* ✰ Important 相关学习和库的掌握要求
+ 不限如下：
+
+** [[https://github.com/Kayzaks/HackingNeuralNetworks][Kayzaks/HackingNeuralNetworks: A small course on exploiting and defending neural networks]]
+** [[https://github.com/fastai/course-v4/tree/master/nbs][course-v4/nbs at master · fastai/course-v4]]
+** [[https://github.com/ogrisel/parallel_ml_tutorial][ogrisel/parallel_ml_tutorial: Tutorial on scikit-learn and IPython for parallel machine learning]]
+
 * Network
 - [[https://tools.netsa.cert.org/silk/analysis-handbook.pdf][https://tools.netsa.cert.org/silk/analysis-handbook.pdf]] [基础]
 
 
 * 研究
 ** [[https://github.com/JohnLaTwC/Shared][JohnLaTwC/Shared: Shared Blogs and Notebooks]] :research:windows:
+** [[https://github.com/lbnl-cybersecurity/ddos-detection][lbnl-cybersecurity/ddos-detection]] :DDOS:
+
 * Osuqery
 提交说明：
 
