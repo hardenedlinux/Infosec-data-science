@@ -99,29 +99,41 @@
   4. Notebook overview
 
 
-** [[https://github.com/OTRF/infosec-jupyterthon/tree/master/docs][infosec-jupyterthon/docs at master · OTRF/infosec-jupyterthon]]
+阅读掌握:
 
-** [[https://github.com/hunters-forge/ThreatHunter-Playbook][hunters-forge/ThreatHunter-Playbook: A Threat hunter's playbook to aid the development of techniques and hypothesis for hunting campaigns.]]
+-  [[https://github.com/OTRF/infosec-jupyterthon/tree/master/docs][infosec-jupyterthon/docs at master · OTRF/infosec-jupyterthon]]
 
-** [[https://github.com/RAPIDSAcademy/rapidsacademy/tree/master/tutorials/security/tour][rapidsacademy/tutorials/security/tour at master · RAPIDSAcademy/rapidsacademy]] :ML:GPU:
 
-** [[https://github.com/rapidsai/clx][rapidsai/clx: A collection of RAPIDS examples for security analysts, data scientists, and engineers to quickly get started applying RAPIDS and GPU acceleration to real-world cybersecurity use cases.]]
+-  [[https://github.com/hunters-forge/ThreatHunter-Playbook][hunters-forge/ThreatHunter-Playbook: A Threat hunter's playbook to aid the development of techniques and hypothesis for hunting campaigns.]]
+
+
+** 机器学习库
+- [[https://github.com/RAPIDSAcademy/rapidsacademy/tree/master/tutorials/security/tour][rapidsacademy/tutorials/security/tour at master · RAPIDSAcademy/rapidsacademy]] :ML:GPU:
+
+
+- [[https://github.com/rapidsai/clx][frapidsai/clx: A collection of RAPIDS examples for security analysts, data scientists, and engineers to quickly get started applying RAPIDS and GPU acceleration to real-world cybersecurity use cases.]]
+
+
 基于 GPU 的攻击安全分析，建议使用的库
 
-*** [[https://github.com/rapidsai/clx/tree/branch-0.15/notebooks][clx/notebooks at branch-0.15 · rapidsai/clx]]
+ - [[https://github.com/rapidsai/clx/tree/branch-0.15/notebooks][clx/notebooks at branch-0.15 · rapidsai/clx]]
+
+
 提交标准参考 notebooks
 
-**
-
-* ✰ Important 相关学习和库的掌握要求
+* ✰ Important 相关学习和教程
  不限如下：
 
-** [[https://github.com/Kayzaks/HackingNeuralNetworks][Kayzaks/HackingNeuralNetworks: A small course on exploiting and defending neural networks]]
-** [[https://github.com/fastai/course-v4/tree/master/nbs][course-v4/nbs at master · fastai/course-v4]]
-** [[https://github.com/ogrisel/parallel_ml_tutorial][ogrisel/parallel_ml_tutorial: Tutorial on scikit-learn and IPython for parallel machine learning]]
+-  [[https://github.com/Kayzaks/HackingNeuralNetworks][Kayzaks/HackingNeuralNetworks: A small course on exploiting and defending neural networks]]
 
-* Network
-- [[https://tools.netsa.cert.org/silk/analysis-handbook.pdf][https://tools.netsa.cert.org/silk/analysis-handbook.pdf]] [基础]
+
+-  [[https://github.com/fastai/course-v4/tree/master/nbs][course-v4/nbs at master · fastai/course-v4]]
+
+
+-  [[https://github.com/ogrisel/parallel_ml_tutorial][ogrisel/parallel_ml_tutorial: Tutorial on scikit-learn and IPython for parallel machine learning]]
+
+
+- [[https://tools.netsa.cert.org/silk/analysis-handbook.pdf][https://tools.netsa.cert.org/silk/analysis-handbook.pdf]] [网络分析基础]
 
 
 * 研究
